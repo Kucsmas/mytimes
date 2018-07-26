@@ -1,0 +1,38 @@
+body {
+/* display: flex;*/
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+.intro {
+  padding: 10px 50px;
+  display: inline-flex;
+}
+
+.intro h4 {
+  margin: 20px;
+}
+
+span {
+  align-items: center;
+  display: inline-block;
+  margin: 20px;
+  text-decoration: underline;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
